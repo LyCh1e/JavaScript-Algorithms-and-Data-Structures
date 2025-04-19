@@ -1,0 +1,45 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telephone Number Validator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Telephone Number Validator</h1>
+    <p>Enter a US phone number to check if it's valid</p>
+
+    <form id="phone-form">
+      <div class="input-section">
+        <input type="text" id="user-input" placeholder="Enter phone number">
+        <button type="submit" id="check-btn">Check</button>
+        <button type="button" id="clear-btn">Clear</button>
+      </div>
+    </form>
+
+    <div class="results-section">
+      <h2>Result:</h2>
+      <p id="results-div"></p>
+    </div>
+
+    <div class="info">
+      <h3>Valid US Number Formats:</h3>
+      <ul>
+        <li>5555555555</li>
+        <li>555-555-5555</li>
+        <li>(555)555-5555</li>
+        <li>(555) 555-5555</li>
+        <li>555 555 5555</li>
+        <li>1 555 555 5555</li>
+        <li>1 (555) 555-5555</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
